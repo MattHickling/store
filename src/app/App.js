@@ -21,7 +21,7 @@ export const App = (props) => {
       />
 
       <Inventory
-        inventory={getFilteredItems(state.inventory,state.searchTerm)}
+        inventory={getFilteredItems(state.inventory, state.searchTerm)}
         currencyFilter={state.currencyFilter}
         dispatch={dispatch}
       />
